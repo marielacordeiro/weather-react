@@ -1,14 +1,19 @@
-.App {
-  text-align: center;
+body {
+  font-family: "Courier New", Courier, monospace;
+  background-color: #e3f4ef;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+div.container {
+  background-image: url ("./images/pink.jpg");
+  background-repeat: no-repeat;
+  border: 3px solid #e8e3f2;
+  border-radius: 25px;
+  margin: 40px auto;
+  max-width: 630px;
+  /* height: 450px; */
+  color: #ffff;
 }

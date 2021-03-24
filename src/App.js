@@ -1,12 +1,19 @@
-import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import "./App.css";
+import Search from "./Search";
+import Results from "./Results";
+import Bottom from "./Bottom";
+import Forecast from "./Forecast";
 
-function App() {
+export default function App() {
   return (
     <div className="App">
-      <header className="App-header">
-      </header>
+      <div className="container">
+        <Search />
+        <Results />
+        <Forecast />
+        <Bottom />
+      </div>
     </div>
   );
 }
-
-export default App;

@@ -1,0 +1,14 @@
+a {
+  color: #8e97f2;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #8e97f2;
+}
+
+p.bottom {
+  text-align: center;
+  font-size: 14px;
+  margin: 5px;
+}
