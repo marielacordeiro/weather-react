@@ -1,5 +1,6 @@
 import React from "react";
 import "./Results.css";
+import ReactAnimatedWeather from "react-animated-weather";
 
 export default function Results() {
   return (
@@ -34,6 +35,12 @@ export default function Results() {
             <span class="currentTemperature" id="temperature">
               8
             </span>{" "}
+            <ReactAnimatedWeather
+						icon="WIND"
+						color="black"
+						size={45}
+						animate={true}
+					/>
             <span class="units">
               <a href="#" id="celsius-link" class="active">
                 ºC
