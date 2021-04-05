@@ -1,16 +1,19 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import "./App.css";
 import Search from "./Search";
-import Results from "./Results";
-import Bottom from "./Bottom";
+import WeatherTemperature from "./WeatherTemperature"
 import Forecast from "./Forecast";
+import Bottom from "./Bottom";
+import React from "react";
+
+
 
 export default function App() {
   return (
     <div className="App">
       <div className="container">
-        <Search />
-        <Results />
+        <Search  defaultCity="Barcelona"/>
+        <WeatherTemperature />
         <Forecast />
         <Bottom />
       </div>

@@ -1,44 +1,17 @@
 h1 {
   font-size: 50px;
-  margin: 20px 0 10px 25px;
+  text-align: left;
+  margin: 20px 15px 10px 20px;
 }
 
 h2 {
-  font-size: 30px;
-  margin: 10px 0px 15px 25px;
+  font-size: 40px;
+  margin: 20px 15px 40px;
 }
 
-ul {
-  font-size: 25px;
-  margin-left: -5px;
-}
-
-.active {
-  color: #ffff;
-  cursor: default;
-}
-
-.active:hover {
-  text-decoration: none;
-  color: #ffff;
-}
-
-a {
-  color: #8e97f2;
-  text-decoration: none;
-}
-
-a:hover {
-  color: #8e97f2;
-}
-
-.currentTemperature {
-  position: relative;
-  top: 26px;
-  font-size: 78px;
-}
-
-.units {
-  position: relative;
-  bottom: 15px;
+li {
+  font-size: 27px;
+  list-style: none;
+  text-align: left;
+  margin: 20px 0px 10px -17px;
 }

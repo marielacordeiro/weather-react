@@ -2,6 +2,30 @@ button {
   margin: 0 5px;
 }
 
-.searchCity {
+form.searchCity {
   margin: 20px 0px 0px 5px;
+}
+
+a {
+  color: #8e97f2;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #8e97f2;
+}
+
+.currentTemperature {
+  position: relative;
+  top: 26px;
+  font-size: 78px;
+}
+.units {
+  font-size: 30px;
+  position: relative;
+  bottom: 15px;
+}
+
+.temperature {
+  font-size: 70px;
 }
