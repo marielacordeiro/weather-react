@@ -8,7 +8,7 @@ body {
 }
 
 div.App {
-  background-image: url ("./public/pink.jpg");
+  background-image: url("pink.jpg");
   background-repeat: no-repeat;
   border: 3px solid #e8e3f2;
   border-radius: 25px;

@@ -1,5 +1,7 @@
+import 'bootstrap/dist/css/bootstrap.min.css';
 import React from "react";
 import "./Bottom.css";
+
 
 export default function Bottom() {
   return (
