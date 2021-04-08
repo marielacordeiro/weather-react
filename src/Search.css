@@ -21,11 +21,14 @@ a:hover {
   font-size: 78px;
 }
 .units {
-  font-size: 30px;
+  font-size: 20px;
   position: relative;
-  bottom: 15px;
+  bottom: 68px;
+  left: 10px;
 }
 
 .temperature {
-  font-size: 70px;
+  font-size: 65px;
+  position: relative;
+  bottom: 40px;
 }

@@ -1,4 +1,3 @@
-import 'bootstrap/dist/css/bootstrap.min.css';
 import React from "react";
 import "./Forecast.css";
 import ReactAnimatedWeather from "react-animated-weather";

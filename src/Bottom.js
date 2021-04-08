@@ -1,4 +1,3 @@
-import 'bootstrap/dist/css/bootstrap.min.css';
 import React from "react";
 import "./Bottom.css";
 
@@ -8,7 +7,7 @@ export default function Bottom() {
     <div className="Bottom">
       <p className="bottom">
         <a
-          href="https://github.com/marielacordeiro/my-cute-project"
+          href="https://github.com/marielacordeiro/weather-react"
           target="_blank" rel="noreferrer"
         >
           Open-source code
