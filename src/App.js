@@ -1,7 +1,5 @@
-import 'bootstrap/dist/css/bootstrap.min.css';
 import "./App.css";
 import Search from "./Search";
-import WeatherTemperature from "./WeatherTemperature"
 import Forecast from "./Forecast";
 import Bottom from "./Bottom";
 import React from "react";

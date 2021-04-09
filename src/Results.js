@@ -24,13 +24,11 @@ export default function Results(props) {
               </ul>
           </div>
         </div>
-        <div class="col-6 text-center">
-          <p>
+        <div className="col-6 text-center">
             <WeatherIcon code={props.data.icon} />
             <span className="currentTemperature">
              <WeatherTemperature celsius={props.data.temperature} />
             </span>
-          </p>
         </div>
       </div>
     </div>
