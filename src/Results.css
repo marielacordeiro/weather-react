@@ -1,19 +1,25 @@
 h1 {
-  font-size: 45px;
+  font-size: 40px;
   text-align: left;
-  margin: 5px 15px 5px 15px;
+  position: relative;
+  top: 15px;
+  left: 10px;
+  /*margin: 5px 15px 5px 15px;*/
 }
 
 h2 {
-  font-size: 40px;
-  margin: 10px 17px 20px 5px;
+  font-size: 32px;
+  text-align: left;
+  position: relative;
+  top: 10px;
+  left: 10px;
 }
 
 li {
   font-size: 27px;
   list-style: none;
   text-align: left;
-  margin: 20px 30px 20px -17px;
-  line-height: 25px;
-  padding: 0 auto;
+  position: relative;
+  top: 10px;
+  right: 22px;
 }

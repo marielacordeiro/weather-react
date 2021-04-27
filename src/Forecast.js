@@ -9,7 +9,7 @@ export default function Forecast() {
         <div className="col">
          <ReactAnimatedWeather
 						icon="CLEAR_DAY"
-						color="black"
+						color= "#8e97f2"
 						size={45}
 						animate={true}
 					/>
@@ -17,7 +17,7 @@ export default function Forecast() {
         <div className="col">
         <ReactAnimatedWeather
 						icon="WIND"
-						color="black"
+						color="#8e97f2"
 						size={45}
 						animate={true}
 					/>
@@ -25,7 +25,7 @@ export default function Forecast() {
         <div className="col">
         <ReactAnimatedWeather
 						icon="FOG"
-						color="black"
+						color="#8e97f2"
 						size={45}
 						animate={true}
 					/>
@@ -33,7 +33,7 @@ export default function Forecast() {
         <div className="col">
         <ReactAnimatedWeather
 						icon="CLEAR_NIGHT"
-						color="black"
+						color="#8e97f2"
 						size={45}
 						animate={true}
 					/>
@@ -41,7 +41,7 @@ export default function Forecast() {
         <div className="col">
           <ReactAnimatedWeather
 						icon="RAIN"
-						color="black"
+						color="#8e97f2"
 						size={45}
 						animate={true}
 					/>
@@ -49,7 +49,7 @@ export default function Forecast() {
         <div className="col">
           <ReactAnimatedWeather
 						icon="SNOW"
-						color="black"
+						color="#8e97f2"
 						size={45}
 						animate={true}
 					/>

@@ -19,8 +19,8 @@ export default function Results(props) {
               <h2><FormattedDate date={props.data.date} /></h2>
               <ul>
                 <li>{props.data.description}</li>
-                <li>Humidity: {props.data.humidity}%</li>
-                <li>Wind Speed: {props.data.wind} km/h</li>
+                <li>humidity: {props.data.humidity}%</li>
+                <li>wind speed: {props.data.wind} km/h</li>
               </ul>
           </div>
         </div>

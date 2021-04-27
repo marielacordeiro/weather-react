@@ -31,7 +31,7 @@ export default function Search(props) {
     axios.get(apiUrl).then(handleResponse);
   }
   
-	function handleSubmit(event) {
+	function handleSubmit(event) { // search for a city
 		event.preventDefault();
 		search();
 	}
@@ -41,7 +41,6 @@ export default function Search(props) {
 	}
 
 	if (weatherData.ready) {
-
   return (
     <div className="Search">
       <div className="row">
