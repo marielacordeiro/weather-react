@@ -17,7 +17,11 @@
   color: #8e97f2;
 }*/
 
-.Forecast .col {
-  display: block;
-  margin: 0 auto;
+.Forecast {
+  text-align: center;
+}
+
+.Forecast-temp-min {
+  opacity: 0.5;
+  margin-left: 5px;
 }
