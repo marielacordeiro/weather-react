@@ -8,7 +8,6 @@ export default function Forecast(props) {
     console.log(response.data);
   }
 
-  console.log(props);
   const apiKey = "42b6c71393f995c013da06c7d114912a";
   let longitude = props.coordinates.lon;
   let latitude = props.coordinates.lat; 
