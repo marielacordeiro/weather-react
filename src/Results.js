@@ -28,7 +28,7 @@ export default function Results(props) {
             <span className="icon">
               <WeatherIcon code={props.data.icon} size={75} />
             </span>
-            <span className="currentTemperature">
+            <span>
              <WeatherTemperature celsius={props.data.temperature} />
             </span>
         </div>
