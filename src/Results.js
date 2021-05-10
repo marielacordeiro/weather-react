@@ -13,19 +13,21 @@ export default function Results(props) {
         </div>
       </div>
 
-      <div className="row align-items-center">
-        <div className="col-6">
+      <div className="row">
+        <div className="col">
           <div>
               <h2><FormattedDate date={props.data.date} /></h2>
+              <p><strong>{props.data.description}</strong></p>
               <ul>
-                <li>{props.data.description}</li>
-                <li>humidity: {props.data.humidity}%</li>
-                <li>wind speed: {props.data.wind} km/h</li>
+                <li>humidity| {props.data.humidity}%</li>
+                <li>wind speed| {props.data.wind}km/h</li>
               </ul>
           </div>
         </div>
-        <div className="col-6 text-center">
-            <WeatherIcon code={props.data.icon} size={75}/>
+        <div className="col">
+            <span className="icon">
+              <WeatherIcon code={props.data.icon} size={75} />
+            </span>
             <span className="currentTemperature">
              <WeatherTemperature celsius={props.data.temperature} />
             </span>

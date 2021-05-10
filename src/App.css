@@ -1,6 +1,6 @@
 body {
   font-family: "Courier New", Courier, monospace;
-  background-color: #e3f4ef;
+  background-color: #364f6b;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -8,9 +8,9 @@ body {
 }
 
 div.App {
-  background-image: url("pink.jpg");
+  /*background-image: url("pink.jpg");*/
+  background-color: #3fc1c9;
   background-repeat: no-repeat;
-  border: 3px solid #e8e3f2;
   border-radius: 25px;
   margin: 40px auto;
   max-width: 630px;

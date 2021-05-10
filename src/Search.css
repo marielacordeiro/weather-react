@@ -6,29 +6,17 @@ form.searchCity {
   margin: 20px 0px 0px 5px;
 }
 
-a {
-  color: #8e97f2;
-  text-decoration: none;
-}
-
-a:hover {
-  color: #8e97f2;
-}
-
-.currentTemperature {
-  position: relative;
-  top: 26px;
-  font-size: 78px;
-}
 .units {
-  font-size: 20px;
+  font-size: 15px;
   position: relative;
-  bottom: 68px;
-  left: 10px;
+  bottom: 30px;
+  left: -135px;
 }
 
 .temperature {
   font-size: 65px;
   position: relative;
-  bottom: 40px;
+  bottom: 0px;
+  left: -135px;
+  color: #dd376c;
 }
