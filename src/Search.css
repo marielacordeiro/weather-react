@@ -1,5 +1,6 @@
 button {
   margin: 0 5px;
+  color: #212528;
 }
 
 form.searchCity {
@@ -18,5 +19,5 @@ form.searchCity {
   position: relative;
   bottom: 0px;
   left: -135px;
-  color: #dd376c;
+  color: #212528;
 }

@@ -2,7 +2,7 @@ h1 {
   font-size: 50px;
   text-align: center;
   margin-top: 30px;
-  color: #dd376c;
+  color: #212528;
 }
 
 h2 {
@@ -15,7 +15,7 @@ strong {
   font-size: 20px;
   position: relative;
   left: 155px;
-  color: #dd376c;
+  color: #212528;
 }
 
 li {
@@ -25,7 +25,7 @@ li {
   top: 35px;
   right: -280px;
   text-align: right;
-  color: #dd376c;
+  color: #212528;
   font-weight: 550;
 }
 

@@ -1,13 +1,13 @@
 body {
   font-family: "Courier New", Courier, monospace;
-  background-color: #364f6b;
+  background-color: #ed9ab4;
   background-size: cover;
 }
 
 div.App {
-  background-color: #3fc1c9;
+  background-color: #edf0f8;
   border-radius: 25px;
   margin: 40px auto;
   max-width: 630px;
-  color: #ffff;
+  color: #5f6268;
 }
